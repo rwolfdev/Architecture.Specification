@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<TargetFramework>net9.0</TargetFramework>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<Version>1.0.0</Version>
+		<Authors>RWolfDev</Authors>
+		<Company>RWolfDev</Company>
+		<Description>
+			A lightweight and extensible implementation of the Specification Pattern for C#.
+
+			This library enables you to define reusable, composable, and testable business rules and query logic using LINQ Expressions.
+			It includes full support for EF Core-compatible filtering, includes, ordering, and paging.
+		</Description>
+		<PackageTags>specification filtering efcore pattern</PackageTags>
+		<PackageId>RWolfDev.Architecture.Specification</PackageId>
+		<RepositoryUrl>https://github.com/rwolfdev/Architecture.Specification</RepositoryUrl>
+	</PropertyGroup>
+
+</Project>
